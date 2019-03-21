@@ -1,0 +1,35 @@
+/*================= Media Query All Devices =================*/
+
+@media only screen and (max-width: 767px) {
+    /* Adjust Font Size */
+    h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    h5 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    h6 {
+        font-size: 10px;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}

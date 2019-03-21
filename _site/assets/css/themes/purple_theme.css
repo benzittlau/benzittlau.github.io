@@ -1,0 +1,151 @@
+/*
+===================
+Purple Style
+===================
+*/
+
+
+/*===== Class Color =====*/
+
+.color {
+    color: #410093;
+    transition: all .5s ease;
+}
+
+
+/*===== Actveed Class Navbar =====*/
+
+.actived > a {
+    border-left: 4px solid #410093;
+    border-right: 4px solid #410093;
+    background-color: #f9f9f9;
+}
+
+
+/*===== Border Bottom For All Title =====*/
+
+.title:after {
+    border-bottom: 3px solid #410093;
+}
+
+
+/*===== Button Collaps SideBar Left =====*/
+
+.collaps {
+    background-color: #410093;
+}
+
+
+/*===== Button Scroll To Top =====*/
+
+.btn_top {
+    background-color: #410093;
+    color: #fff;
+}
+
+
+/*===== SideBare Left =====*/
+
+.sidebar_left #user_profile .img_profile {
+    border: 10px solid #410093;
+}
+
+.sidebar_left #user_profile .cv:hover,
+.sidebar_left #user_profile .cv:focus {
+    background-color: #410093;
+    color: #fff;
+}
+
+.sidebar_left .menu ul li a:hover {
+    border-left: 4px solid #410093;
+    border-right: 4px solid #410093;
+}
+
+
+/*===== Header Section =====*/
+
+#header #overlay #haeder_info .see_works:hover,
+#header #overlay #haeder_info .see_works:focus {
+    background-color: #410093;
+    color: #fff;
+    border: 1px solid #410093;
+}
+
+
+/*===== About Section =====*/
+
+#about .contact_us:hover {
+    background-color: #410093;
+    color: #fff;
+    border: 2px solid #410093;
+}
+
+
+/*===== Portfolio Section =====*/
+
+#portfolio .active_filter {
+    background-color: #410093;
+    color: #fff !important;
+}
+
+#portfolio .filter_work li:hover,
+#portfolio .filter_work li:focus {
+    background-color: #410093;
+    color: #fff !important;
+}
+
+#portfolio #my_works .single_work .see_more {
+    background-color: rgba(65, 0, 147, .9);
+}
+
+#portfolio #my_works .single_work .more_info i:hover {
+    background-color: #fff;
+    color: #410093;
+}
+
+
+/*===== Skills Section =====*/
+
+#skills .single_skill .progress-bar {
+    background-color: #410093;
+}
+
+
+/*===== Blog Section =====*/
+
+#blog .single_topic .topic h3 a:hover {
+    color: #410093;
+}
+
+#blog .single_topic .read_more:hover,
+#blog .single_topic .read_more:focus {
+    color: #410093;
+}
+
+
+/*===== Teams Section =====*/
+
+#teams .single_team:hover img {
+    border: 8px solid #410093;
+}
+
+#teams .single_team .resume:hover,
+#teams .single_team .resume:focus {
+    background-color: #410093;
+    border: 1px solid #410093;
+    color: #fff;
+}
+
+
+/*===== Contact Section =====*/
+
+#contact_me #contact_form .send:hover,
+#contact_me #contact_form .send:focus {
+    background-color: #410093;
+    color: #fff;
+}
+
+#contact_me .close:hover {
+    color: #410093;
+    opacity: 1;
+}
