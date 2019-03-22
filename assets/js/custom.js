@@ -53,7 +53,7 @@ $(document).ready(function () {
         });
     });
     // Move To Portfolio On Click
-    $(".see_works").on("click", function () {
+    $(".about_us").on("click", function () {
         html_body.animate({
             scrollTop: $("#portfolio").offset().top
         }, 1500)

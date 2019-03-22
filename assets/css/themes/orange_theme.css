@@ -64,8 +64,8 @@ Orange Style
 
 /*===== Header Section =====*/
 
-#header #overlay #haeder_info .see_works:hover,
-#header #overlay #haeder_info .see_works:focus {
+#header #overlay #header_info .about_us:hover,
+#header #overlay #header_info .about_us:focus {
     background-color: #FF7200;
     color: #fff;
     border: 1px solid #FF7200;

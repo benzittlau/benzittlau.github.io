@@ -64,8 +64,8 @@ Blue Style
 
 /*===== Header Section =====*/
 
-#header #overlay #haeder_info .see_works:hover,
-#header #overlay #haeder_info .see_works:focus {
+#header #overlay #header_info .about_us:hover,
+#header #overlay #header_info .about_us:focus {
     background-color: #0099CC;
     color: #fff;
     border: 1px solid #0099CC;

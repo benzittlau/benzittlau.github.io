@@ -53,44 +53,13 @@ $(document).ready(function () {
         });
     });
     // Move To Portfolio On Click
-    $(".see_works").on("click", function () {
+    $(".about_us").on("click", function () {
         html_body.animate({
-            scrollTop: $("#portfolio").offset().top
-        }, 1500)
+            scrollTop: $("#about").offset().top
+        }, 900)
     });
     // Button Sliding SideBar Left Block
     $(".collaps").on("click", function () {
         $(".sidebar_left").toggleClass("slide");
     });
-    // Skills bar state animate
-    // 1 - ##### window on refresh #####
-    var progress_bar = $(".progress-bar")
-        , skills_top = $("#skills").offset().top - 200
-        , window_top = $(window).scrollTop();
-    if (window_top >= skills_top) {
-        progress_bar.each(function () {
-            var data_percent = $(this).attr("data-percent");
-            $(this).css("width", data_percent)
-        });
-    };
-    // 2 - ##### window on scroll #####
-    $(window).on("scroll", function () {
-        var skills_top = $("#skills").offset().top - 200
-            , window_top = $(window).scrollTop();
-        if (window_top >= skills_top) {
-            progress_bar.each(function () {
-                var data_percent = $(this).attr("data-percent");
-                $(this).css("width", data_percent)
-            });
-        };
-    });
-    // Add Check Icon For Active Theme
-    menu_theme.on("click", function () {
-        $(this).addClass("check").siblings().removeClass("check");
-    });
-    //Initialize filterizr with default options And Add Class for Active Select
-    $(".filter_work li").on('click', function () {
-        $(this).addClass('active_filter').siblings().removeClass("active_filter");
-    });
-    $(".filtr-container").filterizr();
 });
